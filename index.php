@@ -75,12 +75,12 @@
 <body>
     <div class="header">
         <div class="logo">
-            <img src="logo1.png" alt="Logo 1">
-            <img src="logo2.png" alt="Logo 2">
+            <img src="logoipn.png" alt="Logo 1">
+            <img src="logoescom.png" alt="Logo 2">
         </div>
         <div class="buttons">
-            <a href="#">Ayuda</a>
-            <a href="#">Conócenos</a>
+            <a href="Ayuda.php">Ayuda</a>
+            <a href="Conocenos.php">Conócenos</a>
             <a href="login.php" class="button-primary"><i class="fas fa-sign-in-alt"></i> Iniciar sesión</a>
             <a href="crearcuenta.php" class="button-primary">Crea tu cuenta</a>
         </div>

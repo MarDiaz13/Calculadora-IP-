@@ -81,7 +81,7 @@
             if (password_verify($contrasena, $row["contrasena"])) {
                 // Iniciar sesión y redirigir a la página principal
                 $_SESSION["usuario"] = $row["email"];
-                header("Location: index.php");
+                header("Location: dashboard.php");
                 exit;
             } else {
                 echo "<p>Contraseña incorrecta.</p>";
